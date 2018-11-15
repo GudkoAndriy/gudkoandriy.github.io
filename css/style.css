@@ -211,6 +211,6 @@ nav a:focus, ul.navig a:hover, ul.navig a:focus {
    }
    .sign figcaption {
    text-align:center;
-   margin: 20px 0px 0px 0px; /* Отступы вокруг абзаца */
+   margin: 20px 0px 0px 50px; /* Отступы вокруг абзаца */
    }
   
