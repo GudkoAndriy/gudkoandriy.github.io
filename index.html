@@ -1,54 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Gamez Bootstarp Website Template | Home :: w3layouts</title>
+<title>Rust info</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
-$(function () {
-	
-	var filterList = {
-	
-		init: function () {
-		
-			// MixItUp plugin
-			// http://mixitup.io
-			$('#portfoliolist').mixitup({
-				targetSelector: '.portfolio',
-				filterSelector: '.filter',
-				effects: ['fade'],
-				easing: 'snap',
-				// call the hover effect
-				onMixEnd: filterList.hoverEffect()
-			});				
-		
-		},
-		
-		hoverEffect: function () {
-		
-			// Simple parallax effect
-			$('#portfoliolist .portfolio').hover(
-				function () {
-					$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-					$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-				},
-				function () {
-					$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-					$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-				}		
-			);				
-		
-		}
-
-	};
-	
-	// Run the show!
-	filterList.init();
-	
-	
-});	
-</script>
 </head>
 <body>
 <!-- Header Starts Here -->
@@ -60,11 +17,9 @@ $(function () {
 		<span class="menu"></span>
 		<div class="navigation">
 			<ul class="navig cl-effect-3" >
-				<li><a href="index.html">Home</a></li>
-				<li><a href="games.html">Games</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="features.html">Features</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="index.html">Головна</a></li>
+				<li><a href="games.html">Ігри</a></li>
+				<li><a href="features.html">Нове</a></li>
 			</ul>
 			<div class="search-bar">
 					<input type="text" placeholder="search" required=""  value="search"/>
