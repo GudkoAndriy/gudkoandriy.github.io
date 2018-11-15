@@ -202,3 +202,18 @@ nav a:focus, ul.navig a:hover, ul.navig a:focus {
 }
 
 /*-- Футер кінець --*/
+.sign {
+    padding: 5px;
+    float: left;
+    border: 1px solid #333; 
+    margin: 0 15px 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */ 
+   }
+   .sign figcaption {
+   text-align:center;
+    margin: 5px auto 3px; /* Отступы вокруг абзаца */
+   }
+   .sign1 figcaption {
+   text-align:center;
+    margin: 5px auto 3px; /* Отступы вокруг абзаца */
+   }
