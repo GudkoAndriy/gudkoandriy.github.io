@@ -1,6 +1,27 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<script>
+   document.createElement('figure');
+   document.createElement('figcaption');
+</script>
+<style>
+   figure {
+    background: #d9dabb; /* Цвет фона */
+    display: block; /* Блочный элемент */
+    width: 150px; /* Ширина */
+    height: 190px; /* Высота */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+   }
+   figure img {
+    border: 2px solid #8b8e4b; /* Параметры рамки */
+   }
+   figure p {
+    margin-bottom: 0; /* Отступ снизу */
+   }
+ </style>
 <titleRust новости</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -30,28 +51,21 @@
 	<div class="container">
 		<div class="blog-content">
 
-			<div class="about-top">	
-   <img src="images/abt.jpg"  alt="" align="left">
-				<figure class="sign">
-					<figcaption>
+			<div class="about-top">		
+				<figure>
+					<img src="images/abt.jpg"  alt="" align="left">
+					<figcaption align="right">
 						<h3>У сурвайві Rust з'явився вантажний корабель з лутом</h3>
-				<p>Розробники сурвайву Rust випустили новий великий апдейт, який привернув увагу тим, що додає в гру цілий вантажний корабель, що борознить морські простори ...</p>
-					</figcaption>
- 				 </figure>
-								<h3 class="page-header">У сурвайві Rust з'явився вантажний корабель з лутом</h3>
-				<p>Розробники сурвайву Rust випустили новий великий апдейт, який привернув увагу тим, що додає в гру цілий вантажний корабель, що борознить морські простори ...</p>
-					<a href="news1.html">Більше</a>
-				</p>
-				<div class="about-details">
-					
-				</div>
-				<div class="clearfix"></div>
+						<p>Розробники сурвайву Rust випустили новий великий апдейт, який привернув увагу тим, що додає в гру цілий вантажний корабель, що борознить морські простори ...</p>
+						<a href="news1.html">Більше</a>
+						</figcaption>
+ 				 </figure>					
 			</div>
 		</div>
 		<div class="blog-content">
 			<h3 class="page-header">З останнім апдейтом в Rust з'явилася безпечна зона</h3>
 			<div class="about-top2">
-				<img src="images/abs.jpg" alt="">
+				<p><img src="images/abs.jpg" alt=""></p>
 				<div class="about-details">
 					<p> Rust може бути дуже жорстокою по відношенню до геймерів грою, оскільки вона повністю позбавлена правил, які б регулювали взаємодію між геймерами. Гріфінг будівель ...</p>
 					<a href="news2.html">Більше</a>
