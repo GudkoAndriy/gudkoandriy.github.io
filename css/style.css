@@ -200,6 +200,27 @@ nav a:focus, ul.navig a:hover, ul.navig a:focus {
 .footer p a:hover{
 	color:#4fbfa8;
 }
+.korpus > div, .korpus > input { display: none; }
+
+	.korpus label { padding: 5px; border: 1px solid #aaa; line-height: 28px; cursor: pointer; position: relative; bottom: 1px; background: #fff; }
+	.korpus input[type="radio"]:checked + label { border-bottom: 2px solid #fff; }
+
+	.korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+	.korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2), { display: block; padding: 5px; border: 1px solid #aaa; }
+	b{
+	color:black;	
+	}
+	p{
+	line-height:0.5
+	}
+	.kol{
+	column-count: 2;
+	column-width:70px;
+	}
+	.kol2{
+	column-count: 2;
+	column-width:70px;
+	}
 
 /*-- Футер кінець --*/
 .sign {
