@@ -213,4 +213,11 @@ nav a:focus, ul.navig a:hover, ul.navig a:focus {
    text-align:center;
    margin: 20px 0px 0px 50px; /* Отступы вокруг абзаца */
    }
-  
+  .fullvideo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
