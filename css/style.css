@@ -213,27 +213,4 @@ nav a:focus, ul.navig a:hover, ul.navig a:focus {
    text-align:center;
    margin: 20px 0px 0px 50px; /* Отступы вокруг абзаца */
    }
-.fullvideo video {
-    position: absolute;
-    height: 100%;
-    width: 177.77777778vh;
-    min-width: 100%;
-    min-height: 56.25vw;
-    object-fit: cover;
-}
-video {
-    max-width: 100%;
-}
-.fullvideo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-}
-.has-background .hero-body {
-position: absolute;
-    background: linear-gradient(rgba(30,32,32,0.5), rgba(30,32,32,0.75), #1E2020);
-    z-index: auto;
-}
+
