@@ -224,7 +224,6 @@ nav a:focus, ul.navig a:hover, ul.navig a:focus {
 video {
     max-width: 100%;
 }
-
 .fullvideo {
     position: absolute;
     top: 0;
@@ -236,5 +235,5 @@ video {
 .has-background .hero-body {
 position: absolute;
     background: linear-gradient(rgba(30,32,32,0.5), rgba(30,32,32,0.75), #1E2020);
-    z-index: 1;
+    z-index: auto;
 }
