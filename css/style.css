@@ -17,6 +17,7 @@ html, body{
 }
 /*-- Хедер початок --*/
 .header{
+	position: absolute;
 	background:#000000;
 	padding:2em 0;
 	position:relative;
