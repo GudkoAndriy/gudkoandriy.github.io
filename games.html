@@ -26,30 +26,45 @@ color:black;
 column-count: 2;
 column-width:70px;
 }
-	
-	
-.fullvideo video {
-    height: 100%;
-    width: 177.77777778vh;
-    min-width: 100%;
-    min-height: 56.25vw;
-    object-fit: cover;
+.has-background {
+    position: relative;
+}
+.hero {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fullvideo {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     overflow: hidden;
-	z-index: 1;
 }
-video {
-    max-width: 100%;
+.fullvideo video {
+    height: 100%;
+    width: 177.77777778vh;
+    min-width: 100%;
+    min-height: 56.25vw;
+    object-fit: cover;
+}
+.hero.is-dark {
+    background-color: #f6eae1;
+    color: #fff;
 }
 
 .has-background .hero-body {
-position: absolute;
-    background: linear-gradient(rgba(30,32,32,0.5), rgba(30,32,32,0.75), #1E2020);
-    z-index: auto;
+background-color: #1E202099;
+background-image: url(https://files.facepunch.com/garry/1b1011b1/test.png?1);
+    z-index: 1;
+}
+.hero-body {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 4rem 1.5rem;
 }
 </style>
 	
