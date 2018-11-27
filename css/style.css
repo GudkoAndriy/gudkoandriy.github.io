@@ -20,6 +20,7 @@ html, body{
 	background:#000000;
 	padding:2em 0;
 	position:absolute;
+	z-index: 100;
 }
 .logo{
 	position:absolute;
